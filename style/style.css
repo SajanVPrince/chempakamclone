@@ -5,7 +5,11 @@
     width: 100%;
     height: 30px;
     background-color: #f3c9c9;
-    position: relative
+    position: fixed;
+    z-index: 10000;
+}
+.navlogo{
+    margin-left: 160px;
 }
 #brand{
     margin-right: 90px;
@@ -29,10 +33,10 @@
 #navlogo{
     width: 100%;
 }
-#link,#link1,#link2,#link3,#link4{
+#link,#link1,#link2,#link3,#link4,#navbarDropdownMenuLink{
     color: white;
 }
-#link:hover,#link1:hover,#link2:hover,#link3:hover,#link4:hover{
+#link:hover,#link1:hover,#link2:hover,#link3:hover,#link4:hover,#navbarDropdownMenuLink:hover{
     color: rgb(204, 42, 118);
 }
 
@@ -80,7 +84,7 @@
     top: 610px;
     left: 71.8%;
 }
-.a3{
+.a3,.a3a{
     font-size: 1.3vw;
     font-family:sans-serif;
     padding: 6px 19px;
@@ -93,9 +97,12 @@
     text-decoration: none;
     white-space: nowrap;
 }
-.a3:hover{
+.a3:hover,.a3a:hover{
     background-color: #cfd1d1;
     color:#666666;
+}
+.a3a{
+    margin-top: 70px;
 }
 .a4{
     font-size: 1vw;
@@ -132,5 +139,76 @@
     text-decoration: none;
     color: black;
 }
+#srow{
+    margin-top: 60px;
+}
+.footer{
+    margin-top: 150px;
+    padding-top: 50px;
+    background-color: black;
+    color: white;
+}
+.fbtn{
+    color: white;
+    font-size:1vw ;
+}
+.fbtn:hover,.lbtn:hover{
+    color: #666666;
+}
+.lbtn{
+    font-size: 1vw;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.ful{
+    list-style-type: none;
+}
+#imgp{
+    margin-top: 250px; 
+    height: 350px; 
+    width: 500px; 
+    margin-left: 150px;
+}
+#imgp2{
+    margin-top: 250px; 
+    height: 350px; 
+    width: 500px;
+}
+.pimg{
+    margin-top: 240px;
+    width: 50%;
+    color: black;
+    position:absolute;
+}
+.product{
+    width: 70%;
+    height: 623px;
+    margin: auto;
+    position: relative;
+    border-bottom: 2px solid rgb(134, 134, 134);
+}
+.collapse{
+    color: white;
+}
+#con{
+    padding-top: 260px;
+    margin-left: 60%;
+}
+#pronav:hover{
+    text-decoration: underline;
+    color: rgb(189, 40, 65);
+}
+#fixed{
+    
+    left: 50%;
+    bottom: 50%;
+    width: 10px;
+}
 
 
+/* @media screen and (maxwidth:580px){
+    #top{
+        width: 100vw;
+    }
+} */
