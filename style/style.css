@@ -3,13 +3,20 @@
 }
 #top{
     width: 100%;
-    height: 30px;
+    height: 50px;
     background-color: #f3c9c9;
     position: fixed;
     z-index: 10000;
 }
+
+.carousel-item{
+    font-size: 1.5vw;
+}
 .navlogo{
     margin-left: 160px;
+}
+.nav-link:hover{
+    text-decoration: underline;
 }
 #brand{
     margin-right: 90px;
@@ -207,8 +214,9 @@
 }
 
 
-/* @media screen and (maxwidth:580px){
-    #top{
-        width: 100vw;
+@media screen and (maxwidth:580px){
+    .img-fluid{
+        padding-top: 150px;
     }
-} */
+}
+
